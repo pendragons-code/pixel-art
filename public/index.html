@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Art Drawing Tool</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="modal.css">
+</head>
+<body>
+    <div id="container">
+        <div id="toolbox">
+            <div id="taskbar">
+                <button id="eraser">Eraser</button>
+                <input type="color" id="colorPicker" value="#000000">
+                <button id="clear">Clear All</button>
+                <button id="download">Download</button>
+                <button id="undo">Undo</button>
+                <button id="redo">Redo</button>
+                <!-- Help Button -->
+                <button id="helpButton">Help</button>
+            </div>
+        </div>
+        <div id="advertisement">
+            <!-- You can add Google AdSense or other ad code here -->
+        </div>
+    </div>
+    <div id="canvas-container">
+        <canvas id="pixel-canvas"></canvas>
+    </div>
+    <!-- Modal -->
+    <div id="helpModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+	    <h2>Hello, World!</h2><br><h3>Hey there! This is a simple to use and very simply pixel art maker with not many features. This project is not really much, but I hope you like it. Thanks for using this!<br><br> - made with love from @pendragonscode!</h3>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="modal.js"></script>
+</body>
+</html>
+
